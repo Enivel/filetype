@@ -1,8 +1,8 @@
-# filetype [![Build Status](https://travis-ci.org/Enivel/filetype.svg)](https://travis-ci.org/Enivel/filetype) [![GoDoc](https://godoc.org/github.com/Enivel/filetype?status.svg)](https://godoc.org/github.com/Enivel/filetype) [![Go Version](https://img.shields.io/badge/go-v1.0+-green.svg?style=flat)](https://github.com/Enivel/gentleman)
+# filetype [![Build Status](https://travis-ci.org/h2non/filetype.svg)](https://travis-ci.org/h2non/filetype) [![GoDoc](https://godoc.org/github.com/h2non/filetype?status.svg)](https://godoc.org/github.com/h2non/filetype) [![Go Version](https://img.shields.io/badge/go-v1.0+-green.svg?style=flat)](https://github.com/h2non/gentleman)
 
 Small and dependency free [Go](https://golang.org) package to infer file and MIME type checking the [magic numbers](<https://en.wikipedia.org/wiki/Magic_number_(programming)#Magic_numbers_in_files>) signature.
 
-For SVG file type checking, see [go-is-svg](https://github.com/Enivel/go-is-svg) package. Python port: [filetype.py](https://github.com/Enivel/filetype.py).
+For SVG file type checking, see [go-is-svg](https://github.com/h2non/go-is-svg) package. Python port: [filetype.py](https://github.com/h2non/filetype.py).
 
 ## Features
 
@@ -21,17 +21,17 @@ For SVG file type checking, see [go-is-svg](https://github.com/Enivel/go-is-svg)
 ## Installation
 
 ```bash
-go get github.com/Enivel/filetype
+go get github.com/h2non/filetype
 ```
 
 ## API
 
-See [Godoc](https://godoc.org/github.com/Enivel/filetype) reference.
+See [Godoc](https://godoc.org/github.com/h2non/filetype) reference.
 
 ### Subpackages
 
-- [`github.com/Enivel/filetype/types`](https://godoc.org/github.com/Enivel/filetype/types)
-- [`github.com/Enivel/filetype/matchers`](https://godoc.org/github.com/Enivel/filetype/matchers)
+- [`github.com/h2non/filetype/types`](https://godoc.org/github.com/h2non/filetype/types)
+- [`github.com/h2non/filetype/matchers`](https://godoc.org/github.com/h2non/filetype/matchers)
 
 ## Examples
 
@@ -44,7 +44,7 @@ import (
   "fmt"
   "io/ioutil"
 
-  "github.com/Enivel/filetype"
+  "github.com/h2non/filetype"
 )
 
 func main() {
@@ -69,7 +69,7 @@ import (
   "fmt"
   "io/ioutil"
 
-  "github.com/Enivel/filetype"
+  "github.com/h2non/filetype"
 )
 
 func main() {
@@ -91,7 +91,7 @@ package main
 import (
   "fmt"
 
-  "github.com/Enivel/filetype"
+  "github.com/h2non/filetype"
 )
 
 func main() {
@@ -120,7 +120,7 @@ import (
   "fmt"
   "io/ioutil"
 
-  "github.com/Enivel/filetype"
+  "github.com/h2non/filetype"
 )
 
 func main() {
@@ -147,7 +147,7 @@ package main
 import (
   "fmt"
 
-  "github.com/Enivel/filetype"
+  "github.com/h2non/filetype"
 )
 
 var fooType = filetype.NewType("foo", "foo/foo")
@@ -277,7 +277,7 @@ func main() {
 
 ## Benchmarks
 
-Measured using [real files](https://github.com/Enivel/filetype/tree/master/fixtures).
+Measured using [real files](https://github.com/h2non/filetype/tree/master/fixtures).
 
 Environment: OSX x64 i7 2.7 Ghz
 

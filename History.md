@@ -22,7 +22,7 @@ v1.1.0 / 2020-06-06
   * Merge pull request #82 from andrewstucki/sqlite-update
   * Merge pull request #84 from evanoberholster/master
   * Better differentiation: between image/x-canon-cr2 and image/tiff
-  * Merge pull request #1 from Enivel/master
+  * Merge pull request #1 from h2non/master
   * Update ico filetype per https://www.iana.org/assignments/media-types/image/vnd.microsoft.icon
   * Update rar filetype per https://www.iana.org/assignments/media-types/application/vnd.rar
   * Update exe filetype per https://www.iana.org/assignments/media-types/application/vnd.microsoft.portable-executable
@@ -64,7 +64,7 @@ v1.0.8 / 2019-02-10
   * feat: add dicom type
   * Merge pull request #58 from Fentonz/master
   * Merge pull request #59 from kmanley/master
-  * fix example; related to Enivel/filetype#43
+  * fix example; related to h2non/filetype#43
   * Added DICOM type to archive
 
 

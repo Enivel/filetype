@@ -1,3 +1,3 @@
-module github.com/Enivel/filetype
+module github.com/h2non/filetype
 
 go 1.13
